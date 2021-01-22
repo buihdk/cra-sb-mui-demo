@@ -1,6 +1,7 @@
-import { Button } from "@material-ui/core";
 import logo from "./logo.svg";
 import "./App.css";
+
+import { UploadButton } from "./components/UploadButton";
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
         >
           Learn React
         </a>
-        <Button variant="contained" color="primary">
-          Hello World
-        </Button>
+        <br />
+        <UploadButton variant="contained" color="secondary">
+          Upload Documents
+        </UploadButton>
       </header>
     </div>
   );
